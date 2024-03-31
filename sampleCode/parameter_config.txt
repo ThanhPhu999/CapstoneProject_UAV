@@ -1,0 +1,16 @@
+    AccX = (float)AccXLSB / 4096 - 0.08;
+    AccY = (float)AccYLSB / 4096 + 0.01;
+    AccZ = (float)AccZLSB / 4096 + 0.19;
+
+    AccX = (float)AccXLSB / 4096 - 0.039;
+    AccY = (float)AccYLSB / 4096 + 0.012;
+    AccZ = (float)AccZLSB / 4096 + 0.19;
+
+    AccX = (float)AccXLSB / 4096 - 0.07;
+    AccY = (float)AccYLSB / 4096 - 0.00;
+    AccZ = (float)AccZLSB / 4096 - 0.06;
+
+    float matrixA[3][3] = {{0.996629, -0.004342, -0.001918},
+                       {-0.004342, 0.993976, -0.002411},
+                       {-0.001918, -0.002411, 0.982793}};
+    float vectorB[3][1] = {{0.060620}, {-0.007024}, {-0.088088}};
